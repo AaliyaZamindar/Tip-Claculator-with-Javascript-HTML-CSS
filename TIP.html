@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+</head>
+<body>
+    <h1>TIP CALCULATOR</h1>
+    <form>
+    <p>How much was your bill?</p>
+    <input type="number" id="bill"><br><br>
+    
+    <label for="Services">How was your services?</label><br><br>
+  <select name="Services" id="services">
+    <option value="Excellent">Excellent</option>
+    <option value="Good">Good</option>
+    <option value="Okay">Okay</option>
+    <option value="Poor">Poor</option>
+  </select><br><br>
+  <p>How many people are sharing?</p>
+  <input type="number" id="no-of-people"><br><br>
+  <button onclick="calculateFunction()" type="button" id="calculate" class="stylebutton">CALCULATE</button><br><br>
+  <div id="result"></div>
+
+  </form>
+
+    
+</body>
+<script src="tipcalc.js"></script>
+</html>
